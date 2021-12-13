@@ -1,0 +1,63 @@
+:root {
+      --background-primary: rgb(230, 230, 230);
+      --highlight-primary: #d0b084;
+      --black: #3d3635;
+
+  }
+
+   body {
+
+   }
+
+   .title-container {
+       height: 40vh;
+       background-color: var(--background-primary);
+   }
+
+   .title-hello {
+     font-family: 'Georgia', cursive;
+     font-size: 8rem;
+     font-weight: 300;
+   }
+
+   .title-name {
+    color: var(--black);
+    background-color: var(--highlight-primary);
+
+    font-family: 'Georgia', cursive;
+    font-size: 2rem;
+    font-weight 150;
+
+    position: center;
+    top: -2.5rem;
+    right: -2rem;
+  }
+
+  .title-tag {
+  font-family: 'Georgia', cursive;
+  font-size: 1rem;
+
+  position: center;
+  top: -2.5rem;
+  right: -2.0rem;
+  }
+
+  .about-me-container {
+    font-family: 'Georgia', sans-serif;
+      width: 80vw;
+      height: 40vh;
+
+      margin-left: 10vw;
+
+      background-color: var(--highlight-primary)
+  }
+
+.about-me-image {
+    width:29vw;
+    height:29vw;
+
+    position: relative;
+    top: 0.25rem;
+
+    border-radius: 100%
+  }
